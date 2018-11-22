@@ -1,0 +1,110 @@
+\hypertarget{classtmsengine_1_1_texture}{}\section{tmsengine\+:\+:Texture Class Reference}
+\label{classtmsengine_1_1_texture}\index{tmsengine\+::\+Texture@{tmsengine\+::\+Texture}}
+
+
+{\ttfamily \#include $<$Texture.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classtmsengine_1_1_texture_a73f0e6bf5515ee744e3b04ff1899297f}{Texture} (std\+::string path)
+\item 
+\hyperlink{classtmsengine_1_1_texture_a3985bc791d34dd2c9f3aad02b8095a97}{$\sim$\+Texture} ()
+\item 
+G\+Luint \hyperlink{classtmsengine_1_1_texture_ab0328c347b63d7b7291c24aa59f2168c}{get\+ID} ()
+\item 
+glm\+::vec2 \hyperlink{classtmsengine_1_1_texture_a4a1851f9fca94e2fe5c1cc4d723167d1}{get\+Size} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::shared\+\_\+ptr$<$ \hyperlink{classtmsengine_1_1_texture}{Texture} $>$ \hyperlink{classtmsengine_1_1_texture_a34e2d3a96afc3f1882f32b7ed93497c0}{create} (unsigned int width, unsigned int height)
+\item 
+std\+::shared\+\_\+ptr$<$ \hyperlink{classtmsengine_1_1_texture}{Texture} $>$ \hyperlink{classtmsengine_1_1_texture_aebb7c646b34ce4ef328194a8948b1753}{load} (std\+::string path)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+G\+Luint \hyperlink{classtmsengine_1_1_texture_a4dfe526efa0addb02849a4f88a9b299a}{ID}
+\item 
+bool \hyperlink{classtmsengine_1_1_texture_af638b68fbf939afa705fb1d4b788a98d}{dirty}
+\item 
+int \hyperlink{classtmsengine_1_1_texture_a611e350120e816da2bfc77fca2a5a7e7}{type}
+\item 
+glm\+::vec2 \hyperlink{classtmsengine_1_1_texture_a2de0e5f3fe721ae3f7dc6b27ea03d752}{size}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtmsengine_1_1_texture_a73f0e6bf5515ee744e3b04ff1899297f}\label{classtmsengine_1_1_texture_a73f0e6bf5515ee744e3b04ff1899297f}} 
+\index{tmsengine\+::\+Texture@{tmsengine\+::\+Texture}!Texture@{Texture}}
+\index{Texture@{Texture}!tmsengine\+::\+Texture@{tmsengine\+::\+Texture}}
+\subsubsection{\texorpdfstring{Texture()}{Texture()}}
+{\footnotesize\ttfamily tmsengine\+::\+Texture\+::\+Texture (\begin{DoxyParamCaption}\item[{std\+::string}]{path }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classtmsengine_1_1_texture_a3985bc791d34dd2c9f3aad02b8095a97}\label{classtmsengine_1_1_texture_a3985bc791d34dd2c9f3aad02b8095a97}} 
+\index{tmsengine\+::\+Texture@{tmsengine\+::\+Texture}!````~Texture@{$\sim$\+Texture}}
+\index{````~Texture@{$\sim$\+Texture}!tmsengine\+::\+Texture@{tmsengine\+::\+Texture}}
+\subsubsection{\texorpdfstring{$\sim$\+Texture()}{~Texture()}}
+{\footnotesize\ttfamily tmsengine\+::\+Texture\+::$\sim$\+Texture (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classtmsengine_1_1_texture_a34e2d3a96afc3f1882f32b7ed93497c0}\label{classtmsengine_1_1_texture_a34e2d3a96afc3f1882f32b7ed93497c0}} 
+\index{tmsengine\+::\+Texture@{tmsengine\+::\+Texture}!create@{create}}
+\index{create@{create}!tmsengine\+::\+Texture@{tmsengine\+::\+Texture}}
+\subsubsection{\texorpdfstring{create()}{create()}}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$\hyperlink{classtmsengine_1_1_texture}{Texture}$>$ tmsengine\+::\+Texture\+::create (\begin{DoxyParamCaption}\item[{unsigned int}]{width,  }\item[{unsigned int}]{height }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classtmsengine_1_1_texture_ab0328c347b63d7b7291c24aa59f2168c}\label{classtmsengine_1_1_texture_ab0328c347b63d7b7291c24aa59f2168c}} 
+\index{tmsengine\+::\+Texture@{tmsengine\+::\+Texture}!get\+ID@{get\+ID}}
+\index{get\+ID@{get\+ID}!tmsengine\+::\+Texture@{tmsengine\+::\+Texture}}
+\subsubsection{\texorpdfstring{get\+I\+D()}{getID()}}
+{\footnotesize\ttfamily G\+Luint tmsengine\+::\+Texture\+::get\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classtmsengine_1_1_texture_a4a1851f9fca94e2fe5c1cc4d723167d1}\label{classtmsengine_1_1_texture_a4a1851f9fca94e2fe5c1cc4d723167d1}} 
+\index{tmsengine\+::\+Texture@{tmsengine\+::\+Texture}!get\+Size@{get\+Size}}
+\index{get\+Size@{get\+Size}!tmsengine\+::\+Texture@{tmsengine\+::\+Texture}}
+\subsubsection{\texorpdfstring{get\+Size()}{getSize()}}
+{\footnotesize\ttfamily glm\+::vec2 tmsengine\+::\+Texture\+::get\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classtmsengine_1_1_texture_aebb7c646b34ce4ef328194a8948b1753}\label{classtmsengine_1_1_texture_aebb7c646b34ce4ef328194a8948b1753}} 
+\index{tmsengine\+::\+Texture@{tmsengine\+::\+Texture}!load@{load}}
+\index{load@{load}!tmsengine\+::\+Texture@{tmsengine\+::\+Texture}}
+\subsubsection{\texorpdfstring{load()}{load()}}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$\hyperlink{classtmsengine_1_1_texture}{Texture}$>$ tmsengine\+::\+Texture\+::load (\begin{DoxyParamCaption}\item[{std\+::string}]{path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classtmsengine_1_1_texture_af638b68fbf939afa705fb1d4b788a98d}\label{classtmsengine_1_1_texture_af638b68fbf939afa705fb1d4b788a98d}} 
+\index{tmsengine\+::\+Texture@{tmsengine\+::\+Texture}!dirty@{dirty}}
+\index{dirty@{dirty}!tmsengine\+::\+Texture@{tmsengine\+::\+Texture}}
+\subsubsection{\texorpdfstring{dirty}{dirty}}
+{\footnotesize\ttfamily bool tmsengine\+::\+Texture\+::dirty\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classtmsengine_1_1_texture_a4dfe526efa0addb02849a4f88a9b299a}\label{classtmsengine_1_1_texture_a4dfe526efa0addb02849a4f88a9b299a}} 
+\index{tmsengine\+::\+Texture@{tmsengine\+::\+Texture}!ID@{ID}}
+\index{ID@{ID}!tmsengine\+::\+Texture@{tmsengine\+::\+Texture}}
+\subsubsection{\texorpdfstring{ID}{ID}}
+{\footnotesize\ttfamily G\+Luint tmsengine\+::\+Texture\+::\+ID\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classtmsengine_1_1_texture_a2de0e5f3fe721ae3f7dc6b27ea03d752}\label{classtmsengine_1_1_texture_a2de0e5f3fe721ae3f7dc6b27ea03d752}} 
+\index{tmsengine\+::\+Texture@{tmsengine\+::\+Texture}!size@{size}}
+\index{size@{size}!tmsengine\+::\+Texture@{tmsengine\+::\+Texture}}
+\subsubsection{\texorpdfstring{size}{size}}
+{\footnotesize\ttfamily glm\+::vec2 tmsengine\+::\+Texture\+::size\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classtmsengine_1_1_texture_a611e350120e816da2bfc77fca2a5a7e7}\label{classtmsengine_1_1_texture_a611e350120e816da2bfc77fca2a5a7e7}} 
+\index{tmsengine\+::\+Texture@{tmsengine\+::\+Texture}!type@{type}}
+\index{type@{type}!tmsengine\+::\+Texture@{tmsengine\+::\+Texture}}
+\subsubsection{\texorpdfstring{type}{type}}
+{\footnotesize\ttfamily int tmsengine\+::\+Texture\+::type\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+T\+M\+S\+Engine/\+Resources/\hyperlink{_texture_8h}{Texture.\+h}\item 
+T\+M\+S\+Engine/\+Resources/\hyperlink{_texture_8cpp}{Texture.\+cpp}\end{DoxyCompactItemize}

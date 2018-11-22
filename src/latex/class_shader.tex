@@ -1,0 +1,87 @@
+\hypertarget{class_shader}{}\section{Shader Class Reference}
+\label{class_shader}\index{Shader@{Shader}}
+
+
+{\ttfamily \#include $<$Shader.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_shader_aff01df87e8a102f270b5b135a295e59d}{$\sim$\+Shader} ()
+\item 
+void \hyperlink{class_shader_a6826cb5394def93884540565ffa4df7d}{set\+Uniform} (std\+::string name, float value)
+\item 
+void \hyperlink{class_shader_a94dca1a3185ca11e8e0ca7f77c3ecb34}{set\+Uniform} (std\+::string name, std\+::weak\+\_\+ptr$<$ Texture $>$ value)
+\item 
+void \hyperlink{class_shader_a3f94c37778540d4d0d7ff107936e3750}{set\+Uniform} (std\+::string name, glm\+::mat4 value)
+\item 
+void \hyperlink{class_shader_ad97eff9ea48cee42227e31c56cd7479e}{set\+Uniform} (std\+::string name, glm\+::vec3 value)
+\item 
+G\+Luint \hyperlink{class_shader_ad1bc9a16400499ec80c4f716a390abaf}{get\+ID} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::shared\+\_\+ptr$<$ \hyperlink{class_shader}{Shader} $>$ \hyperlink{class_shader_af67abb9216bbd4729181ed6cf8260baf}{create} (std\+::string vert\+Src, std\+::string frag\+Src)
+\item 
+std\+::shared\+\_\+ptr$<$ \hyperlink{class_shader}{Shader} $>$ \hyperlink{class_shader_ab80e1350b80a6f6ccc3e28aca8ca3536}{load} (std\+::string path)
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_shader_aff01df87e8a102f270b5b135a295e59d}\label{class_shader_aff01df87e8a102f270b5b135a295e59d}} 
+\index{Shader@{Shader}!````~Shader@{$\sim$\+Shader}}
+\index{````~Shader@{$\sim$\+Shader}!Shader@{Shader}}
+\subsubsection{\texorpdfstring{$\sim$\+Shader()}{~Shader()}}
+{\footnotesize\ttfamily Shader\+::$\sim$\+Shader (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_shader_af67abb9216bbd4729181ed6cf8260baf}\label{class_shader_af67abb9216bbd4729181ed6cf8260baf}} 
+\index{Shader@{Shader}!create@{create}}
+\index{create@{create}!Shader@{Shader}}
+\subsubsection{\texorpdfstring{create()}{create()}}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$\hyperlink{class_shader}{Shader}$>$ Shader\+::create (\begin{DoxyParamCaption}\item[{std\+::string}]{vert\+Src,  }\item[{std\+::string}]{frag\+Src }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_shader_ad1bc9a16400499ec80c4f716a390abaf}\label{class_shader_ad1bc9a16400499ec80c4f716a390abaf}} 
+\index{Shader@{Shader}!get\+ID@{get\+ID}}
+\index{get\+ID@{get\+ID}!Shader@{Shader}}
+\subsubsection{\texorpdfstring{get\+I\+D()}{getID()}}
+{\footnotesize\ttfamily G\+Luint Shader\+::get\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_shader_ab80e1350b80a6f6ccc3e28aca8ca3536}\label{class_shader_ab80e1350b80a6f6ccc3e28aca8ca3536}} 
+\index{Shader@{Shader}!load@{load}}
+\index{load@{load}!Shader@{Shader}}
+\subsubsection{\texorpdfstring{load()}{load()}}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$\hyperlink{class_shader}{Shader}$>$ Shader\+::load (\begin{DoxyParamCaption}\item[{std\+::string}]{path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_shader_a6826cb5394def93884540565ffa4df7d}\label{class_shader_a6826cb5394def93884540565ffa4df7d}} 
+\index{Shader@{Shader}!set\+Uniform@{set\+Uniform}}
+\index{set\+Uniform@{set\+Uniform}!Shader@{Shader}}
+\subsubsection{\texorpdfstring{set\+Uniform()}{setUniform()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily void Shader\+::set\+Uniform (\begin{DoxyParamCaption}\item[{std\+::string}]{name,  }\item[{float}]{value }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_shader_a94dca1a3185ca11e8e0ca7f77c3ecb34}\label{class_shader_a94dca1a3185ca11e8e0ca7f77c3ecb34}} 
+\index{Shader@{Shader}!set\+Uniform@{set\+Uniform}}
+\index{set\+Uniform@{set\+Uniform}!Shader@{Shader}}
+\subsubsection{\texorpdfstring{set\+Uniform()}{setUniform()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily void Shader\+::set\+Uniform (\begin{DoxyParamCaption}\item[{std\+::string}]{name,  }\item[{std\+::weak\+\_\+ptr$<$ Texture $>$}]{value }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_shader_a3f94c37778540d4d0d7ff107936e3750}\label{class_shader_a3f94c37778540d4d0d7ff107936e3750}} 
+\index{Shader@{Shader}!set\+Uniform@{set\+Uniform}}
+\index{set\+Uniform@{set\+Uniform}!Shader@{Shader}}
+\subsubsection{\texorpdfstring{set\+Uniform()}{setUniform()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily void Shader\+::set\+Uniform (\begin{DoxyParamCaption}\item[{std\+::string}]{name,  }\item[{glm\+::mat4}]{value }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_shader_ad97eff9ea48cee42227e31c56cd7479e}\label{class_shader_ad97eff9ea48cee42227e31c56cd7479e}} 
+\index{Shader@{Shader}!set\+Uniform@{set\+Uniform}}
+\index{set\+Uniform@{set\+Uniform}!Shader@{Shader}}
+\subsubsection{\texorpdfstring{set\+Uniform()}{setUniform()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily void Shader\+::set\+Uniform (\begin{DoxyParamCaption}\item[{std\+::string}]{name,  }\item[{glm\+::vec3}]{value }\end{DoxyParamCaption})}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+T\+M\+S\+Engine/\+Resources/\hyperlink{_shader_8h}{Shader.\+h}\end{DoxyCompactItemize}

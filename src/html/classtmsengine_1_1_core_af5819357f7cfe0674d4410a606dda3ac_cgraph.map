@@ -1,0 +1,7 @@
+<map id="tmsengine::Core::Start" name="tmsengine::Core::Start">
+<area shape="rect" id="node2" href="$classtmsengine_1_1_keyboard.html#a61b823821007a6583b277cf0622b201f" title="tmsengine::Keyboard\l::update" alt="" coords="211,5,357,47"/>
+<area shape="rect" id="node3" href="$classtmsengine_1_1_enviroment.html#aaa6d260aca99eb32d5ee96771fe34a01" title="tmsengine::Enviroment\l::getDeltaTime" alt="" coords="207,71,361,112"/>
+<area shape="rect" id="node4" href="$classtmsengine_1_1_screen.html#ab662ffd34dd93ef78adc63a3bfc6db18" title="tmsengine::Screen::\lClearBuff" alt="" coords="215,136,353,177"/>
+<area shape="rect" id="node5" href="$classtmsengine_1_1_screen.html#af9c6d28da2a6008de16c358321aa12ab" title="tmsengine::Screen::\lSwapScreen" alt="" coords="215,201,353,243"/>
+<area shape="rect" id="node6" href="$classtmsengine_1_1_keyboard.html#ab7baeae12cffe8f588fdf5a1227f09ba" title="tmsengine::Keyboard\l::getKey" alt="" coords="211,267,357,308"/>
+</map>

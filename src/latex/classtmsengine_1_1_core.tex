@@ -1,0 +1,140 @@
+\hypertarget{classtmsengine_1_1_core}{}\section{tmsengine\+:\+:Core Class Reference}
+\label{classtmsengine_1_1_core}\index{tmsengine\+::\+Core@{tmsengine\+::\+Core}}
+
+
+{\ttfamily \#include $<$Core.\+h$>$}
+
+
+
+Collaboration diagram for tmsengine\+:\+:Core\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classtmsengine_1_1_core__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::shared\+\_\+ptr$<$ \hyperlink{classtmsengine_1_1_game_object}{Game\+Object} $>$ \hyperlink{classtmsengine_1_1_core_a6e341b3f9754d7b9ba9ad49bdf701eb6}{add\+Game\+Object} ()
+\item 
+void \hyperlink{classtmsengine_1_1_core_af5819357f7cfe0674d4410a606dda3ac}{Start} ()
+\item 
+{\footnotesize template$<$typename T $>$ }\\std\+::shared\+\_\+ptr$<$ T $>$ \hyperlink{classtmsengine_1_1_core_a45b0f8b3b3edfc6db29707d5b7cce859}{get\+Comp} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static std\+::shared\+\_\+ptr$<$ \hyperlink{classtmsengine_1_1_core}{Core} $>$ \hyperlink{classtmsengine_1_1_core_a6a1dbfaeefd113b669d9a72f828faab7}{initialise} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{classtmsengine_1_1_core_a46a10c02877fce53aee7e4939f807ad8}{running}
+\item 
+std\+::vector$<$ std\+::shared\+\_\+ptr$<$ \hyperlink{classtmsengine_1_1_game_object}{Game\+Object} $>$ $>$ \hyperlink{classtmsengine_1_1_core_afcee2f870370b68981a6ccab00fd2408}{game\+Objects}
+\item 
+std\+::weak\+\_\+ptr$<$ \hyperlink{classtmsengine_1_1_core}{Core} $>$ \hyperlink{classtmsengine_1_1_core_a8a48e579f54f5ec8c9e795c544c72ecc}{self}
+\item 
+A\+L\+Cdevice $\ast$ \hyperlink{classtmsengine_1_1_core_a91929ead4dc4bbf21e54e06f1d80408b}{device}
+\item 
+A\+L\+Ccontext $\ast$ \hyperlink{classtmsengine_1_1_core_a7fc87c5ea5b9b682b8dddef5360e109f}{context}
+\item 
+\hyperlink{classtmsengine_1_1_keyboard}{Keyboard} \hyperlink{classtmsengine_1_1_core_a58114b7b85229158404c9d087e94e02a}{input}
+\item 
+\hyperlink{classtmsengine_1_1_enviroment}{Enviroment} \hyperlink{classtmsengine_1_1_core_a5d0429ccd5f0d3bbd18b997e52c0111d}{enviroment}
+\item 
+\hyperlink{classtmsengine_1_1_screen}{Screen} \hyperlink{classtmsengine_1_1_core_ac0aa6ed388a9fb1fda4c190fc0bb762b}{window}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classtmsengine_1_1_core_a6e341b3f9754d7b9ba9ad49bdf701eb6}\label{classtmsengine_1_1_core_a6e341b3f9754d7b9ba9ad49bdf701eb6}} 
+\index{tmsengine\+::\+Core@{tmsengine\+::\+Core}!add\+Game\+Object@{add\+Game\+Object}}
+\index{add\+Game\+Object@{add\+Game\+Object}!tmsengine\+::\+Core@{tmsengine\+::\+Core}}
+\subsubsection{\texorpdfstring{add\+Game\+Object()}{addGameObject()}}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$ \hyperlink{classtmsengine_1_1_game_object}{Game\+Object} $>$ tmsengine\+::\+Core\+::add\+Game\+Object (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classtmsengine_1_1_core_a45b0f8b3b3edfc6db29707d5b7cce859}\label{classtmsengine_1_1_core_a45b0f8b3b3edfc6db29707d5b7cce859}} 
+\index{tmsengine\+::\+Core@{tmsengine\+::\+Core}!get\+Comp@{get\+Comp}}
+\index{get\+Comp@{get\+Comp}!tmsengine\+::\+Core@{tmsengine\+::\+Core}}
+\subsubsection{\texorpdfstring{get\+Comp()}{getComp()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+std\+::shared\+\_\+ptr$<$ T $>$ tmsengine\+::\+Core\+::get\+Comp (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classtmsengine_1_1_core_a6a1dbfaeefd113b669d9a72f828faab7}\label{classtmsengine_1_1_core_a6a1dbfaeefd113b669d9a72f828faab7}} 
+\index{tmsengine\+::\+Core@{tmsengine\+::\+Core}!initialise@{initialise}}
+\index{initialise@{initialise}!tmsengine\+::\+Core@{tmsengine\+::\+Core}}
+\subsubsection{\texorpdfstring{initialise()}{initialise()}}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$ \hyperlink{classtmsengine_1_1_core}{Core} $>$ tmsengine\+::\+Core\+::initialise (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classtmsengine_1_1_core_af5819357f7cfe0674d4410a606dda3ac}\label{classtmsengine_1_1_core_af5819357f7cfe0674d4410a606dda3ac}} 
+\index{tmsengine\+::\+Core@{tmsengine\+::\+Core}!Start@{Start}}
+\index{Start@{Start}!tmsengine\+::\+Core@{tmsengine\+::\+Core}}
+\subsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void tmsengine\+::\+Core\+::\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=347pt]{classtmsengine_1_1_core_af5819357f7cfe0674d4410a606dda3ac_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classtmsengine_1_1_core_a7fc87c5ea5b9b682b8dddef5360e109f}\label{classtmsengine_1_1_core_a7fc87c5ea5b9b682b8dddef5360e109f}} 
+\index{tmsengine\+::\+Core@{tmsengine\+::\+Core}!context@{context}}
+\index{context@{context}!tmsengine\+::\+Core@{tmsengine\+::\+Core}}
+\subsubsection{\texorpdfstring{context}{context}}
+{\footnotesize\ttfamily A\+L\+Ccontext$\ast$ tmsengine\+::\+Core\+::context\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classtmsengine_1_1_core_a91929ead4dc4bbf21e54e06f1d80408b}\label{classtmsengine_1_1_core_a91929ead4dc4bbf21e54e06f1d80408b}} 
+\index{tmsengine\+::\+Core@{tmsengine\+::\+Core}!device@{device}}
+\index{device@{device}!tmsengine\+::\+Core@{tmsengine\+::\+Core}}
+\subsubsection{\texorpdfstring{device}{device}}
+{\footnotesize\ttfamily A\+L\+Cdevice$\ast$ tmsengine\+::\+Core\+::device\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classtmsengine_1_1_core_a5d0429ccd5f0d3bbd18b997e52c0111d}\label{classtmsengine_1_1_core_a5d0429ccd5f0d3bbd18b997e52c0111d}} 
+\index{tmsengine\+::\+Core@{tmsengine\+::\+Core}!enviroment@{enviroment}}
+\index{enviroment@{enviroment}!tmsengine\+::\+Core@{tmsengine\+::\+Core}}
+\subsubsection{\texorpdfstring{enviroment}{enviroment}}
+{\footnotesize\ttfamily \hyperlink{classtmsengine_1_1_enviroment}{Enviroment} tmsengine\+::\+Core\+::enviroment\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classtmsengine_1_1_core_afcee2f870370b68981a6ccab00fd2408}\label{classtmsengine_1_1_core_afcee2f870370b68981a6ccab00fd2408}} 
+\index{tmsengine\+::\+Core@{tmsengine\+::\+Core}!game\+Objects@{game\+Objects}}
+\index{game\+Objects@{game\+Objects}!tmsengine\+::\+Core@{tmsengine\+::\+Core}}
+\subsubsection{\texorpdfstring{game\+Objects}{gameObjects}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::shared\+\_\+ptr$<$\hyperlink{classtmsengine_1_1_game_object}{Game\+Object}$>$ $>$ tmsengine\+::\+Core\+::game\+Objects\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classtmsengine_1_1_core_a58114b7b85229158404c9d087e94e02a}\label{classtmsengine_1_1_core_a58114b7b85229158404c9d087e94e02a}} 
+\index{tmsengine\+::\+Core@{tmsengine\+::\+Core}!input@{input}}
+\index{input@{input}!tmsengine\+::\+Core@{tmsengine\+::\+Core}}
+\subsubsection{\texorpdfstring{input}{input}}
+{\footnotesize\ttfamily \hyperlink{classtmsengine_1_1_keyboard}{Keyboard} tmsengine\+::\+Core\+::input\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classtmsengine_1_1_core_a46a10c02877fce53aee7e4939f807ad8}\label{classtmsengine_1_1_core_a46a10c02877fce53aee7e4939f807ad8}} 
+\index{tmsengine\+::\+Core@{tmsengine\+::\+Core}!running@{running}}
+\index{running@{running}!tmsengine\+::\+Core@{tmsengine\+::\+Core}}
+\subsubsection{\texorpdfstring{running}{running}}
+{\footnotesize\ttfamily bool tmsengine\+::\+Core\+::running\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classtmsengine_1_1_core_a8a48e579f54f5ec8c9e795c544c72ecc}\label{classtmsengine_1_1_core_a8a48e579f54f5ec8c9e795c544c72ecc}} 
+\index{tmsengine\+::\+Core@{tmsengine\+::\+Core}!self@{self}}
+\index{self@{self}!tmsengine\+::\+Core@{tmsengine\+::\+Core}}
+\subsubsection{\texorpdfstring{self}{self}}
+{\footnotesize\ttfamily std\+::weak\+\_\+ptr$<$\hyperlink{classtmsengine_1_1_core}{Core}$>$ tmsengine\+::\+Core\+::self\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classtmsengine_1_1_core_ac0aa6ed388a9fb1fda4c190fc0bb762b}\label{classtmsengine_1_1_core_ac0aa6ed388a9fb1fda4c190fc0bb762b}} 
+\index{tmsengine\+::\+Core@{tmsengine\+::\+Core}!window@{window}}
+\index{window@{window}!tmsengine\+::\+Core@{tmsengine\+::\+Core}}
+\subsubsection{\texorpdfstring{window}{window}}
+{\footnotesize\ttfamily \hyperlink{classtmsengine_1_1_screen}{Screen} tmsengine\+::\+Core\+::window\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+T\+M\+S\+Engine/\hyperlink{_core_8h}{Core.\+h}\item 
+T\+M\+S\+Engine/\hyperlink{_core_8cpp}{Core.\+cpp}\end{DoxyCompactItemize}

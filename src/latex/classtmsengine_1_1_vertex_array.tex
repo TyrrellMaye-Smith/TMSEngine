@@ -1,0 +1,138 @@
+\hypertarget{classtmsengine_1_1_vertex_array}{}\section{tmsengine\+:\+:Vertex\+Array Class Reference}
+\label{classtmsengine_1_1_vertex_array}\index{tmsengine\+::\+Vertex\+Array@{tmsengine\+::\+Vertex\+Array}}
+
+
+{\ttfamily \#include $<$Vertex\+Array.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classtmsengine_1_1_vertex_array_ab8a2dcce9698f96dac5f9a19c6979d03}{Vertex\+Array} ()
+\item 
+\hyperlink{classtmsengine_1_1_vertex_array_ad3790c015fab2f4ca0ac32b1782b7f33}{Vertex\+Array} (std\+::string path)
+\item 
+void \hyperlink{classtmsengine_1_1_vertex_array_aded817cf210e13abd10b92475718e3ef}{set\+Buffer} (std\+::string attribute, std\+::shared\+\_\+ptr$<$ \hyperlink{classtmsengine_1_1_vertex_buffer}{Vertex\+Buffer} $>$ buffer)
+\item 
+int \hyperlink{classtmsengine_1_1_vertex_array_abd774aebfb2cac21e6b5b769b24839ab}{get\+Vertex\+Count} ()
+\item 
+G\+Luint \hyperlink{classtmsengine_1_1_vertex_array_ab8d9e0c4130f9a0880be869c5f176285}{get\+ID} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classtmsengine_1_1_vertex_array_a35f3a952fe7089d2ebe71c6d4e2c2443}{split\+String\+White\+Space} (std\+::string \&input, std\+::vector$<$ std\+::string $>$ \&output)
+\item 
+void \hyperlink{classtmsengine_1_1_vertex_array_a0d589e02258c90f551011be850f180e4}{split\+String} (std\+::string \&input, char splitter, std\+::vector$<$ std\+::string $>$ \&output)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+G\+Luint \hyperlink{classtmsengine_1_1_vertex_array_a4a18394cce9fe71f003ab23721fba532}{vao\+ID}
+\item 
+std\+::vector$<$ std\+::shared\+\_\+ptr$<$ \hyperlink{classtmsengine_1_1_vertex_buffer}{Vertex\+Buffer} $>$ $>$ \hyperlink{classtmsengine_1_1_vertex_array_a39afaa4b9e37f5a8e107e82cab67e354}{buffers}
+\item 
+bool \hyperlink{classtmsengine_1_1_vertex_array_a9d53a5e75ce6c4afec5091ebeb17069f}{dirty}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtmsengine_1_1_vertex_array_ab8a2dcce9698f96dac5f9a19c6979d03}\label{classtmsengine_1_1_vertex_array_ab8a2dcce9698f96dac5f9a19c6979d03}} 
+\index{tmsengine\+::\+Vertex\+Array@{tmsengine\+::\+Vertex\+Array}!Vertex\+Array@{Vertex\+Array}}
+\index{Vertex\+Array@{Vertex\+Array}!tmsengine\+::\+Vertex\+Array@{tmsengine\+::\+Vertex\+Array}}
+\subsubsection{\texorpdfstring{Vertex\+Array()}{VertexArray()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Vertex\+Array\+::\+Vertex\+Array (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classtmsengine_1_1_vertex_array_ad3790c015fab2f4ca0ac32b1782b7f33}\label{classtmsengine_1_1_vertex_array_ad3790c015fab2f4ca0ac32b1782b7f33}} 
+\index{tmsengine\+::\+Vertex\+Array@{tmsengine\+::\+Vertex\+Array}!Vertex\+Array@{Vertex\+Array}}
+\index{Vertex\+Array@{Vertex\+Array}!tmsengine\+::\+Vertex\+Array@{tmsengine\+::\+Vertex\+Array}}
+\subsubsection{\texorpdfstring{Vertex\+Array()}{VertexArray()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Vertex\+Array\+::\+Vertex\+Array (\begin{DoxyParamCaption}\item[{std\+::string}]{path }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classtmsengine_1_1_vertex_array_ad3790c015fab2f4ca0ac32b1782b7f33_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classtmsengine_1_1_vertex_array_ab8d9e0c4130f9a0880be869c5f176285}\label{classtmsengine_1_1_vertex_array_ab8d9e0c4130f9a0880be869c5f176285}} 
+\index{tmsengine\+::\+Vertex\+Array@{tmsengine\+::\+Vertex\+Array}!get\+ID@{get\+ID}}
+\index{get\+ID@{get\+ID}!tmsengine\+::\+Vertex\+Array@{tmsengine\+::\+Vertex\+Array}}
+\subsubsection{\texorpdfstring{get\+I\+D()}{getID()}}
+{\footnotesize\ttfamily G\+Luint Vertex\+Array\+::get\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classtmsengine_1_1_vertex_array_abd774aebfb2cac21e6b5b769b24839ab}\label{classtmsengine_1_1_vertex_array_abd774aebfb2cac21e6b5b769b24839ab}} 
+\index{tmsengine\+::\+Vertex\+Array@{tmsengine\+::\+Vertex\+Array}!get\+Vertex\+Count@{get\+Vertex\+Count}}
+\index{get\+Vertex\+Count@{get\+Vertex\+Count}!tmsengine\+::\+Vertex\+Array@{tmsengine\+::\+Vertex\+Array}}
+\subsubsection{\texorpdfstring{get\+Vertex\+Count()}{getVertexCount()}}
+{\footnotesize\ttfamily int Vertex\+Array\+::get\+Vertex\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classtmsengine_1_1_vertex_array_aded817cf210e13abd10b92475718e3ef}\label{classtmsengine_1_1_vertex_array_aded817cf210e13abd10b92475718e3ef}} 
+\index{tmsengine\+::\+Vertex\+Array@{tmsengine\+::\+Vertex\+Array}!set\+Buffer@{set\+Buffer}}
+\index{set\+Buffer@{set\+Buffer}!tmsengine\+::\+Vertex\+Array@{tmsengine\+::\+Vertex\+Array}}
+\subsubsection{\texorpdfstring{set\+Buffer()}{setBuffer()}}
+{\footnotesize\ttfamily void Vertex\+Array\+::set\+Buffer (\begin{DoxyParamCaption}\item[{std\+::string}]{attribute,  }\item[{std\+::shared\+\_\+ptr$<$ \hyperlink{classtmsengine_1_1_vertex_buffer}{Vertex\+Buffer} $>$}]{buffer }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classtmsengine_1_1_vertex_array_aded817cf210e13abd10b92475718e3ef_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classtmsengine_1_1_vertex_array_a0d589e02258c90f551011be850f180e4}\label{classtmsengine_1_1_vertex_array_a0d589e02258c90f551011be850f180e4}} 
+\index{tmsengine\+::\+Vertex\+Array@{tmsengine\+::\+Vertex\+Array}!split\+String@{split\+String}}
+\index{split\+String@{split\+String}!tmsengine\+::\+Vertex\+Array@{tmsengine\+::\+Vertex\+Array}}
+\subsubsection{\texorpdfstring{split\+String()}{splitString()}}
+{\footnotesize\ttfamily void Vertex\+Array\+::split\+String (\begin{DoxyParamCaption}\item[{std\+::string \&}]{input,  }\item[{char}]{splitter,  }\item[{std\+::vector$<$ std\+::string $>$ \&}]{output }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classtmsengine_1_1_vertex_array_a0d589e02258c90f551011be850f180e4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classtmsengine_1_1_vertex_array_a35f3a952fe7089d2ebe71c6d4e2c2443}\label{classtmsengine_1_1_vertex_array_a35f3a952fe7089d2ebe71c6d4e2c2443}} 
+\index{tmsengine\+::\+Vertex\+Array@{tmsengine\+::\+Vertex\+Array}!split\+String\+White\+Space@{split\+String\+White\+Space}}
+\index{split\+String\+White\+Space@{split\+String\+White\+Space}!tmsengine\+::\+Vertex\+Array@{tmsengine\+::\+Vertex\+Array}}
+\subsubsection{\texorpdfstring{split\+String\+White\+Space()}{splitStringWhiteSpace()}}
+{\footnotesize\ttfamily void Vertex\+Array\+::split\+String\+White\+Space (\begin{DoxyParamCaption}\item[{std\+::string \&}]{input,  }\item[{std\+::vector$<$ std\+::string $>$ \&}]{output }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classtmsengine_1_1_vertex_array_a35f3a952fe7089d2ebe71c6d4e2c2443_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classtmsengine_1_1_vertex_array_a39afaa4b9e37f5a8e107e82cab67e354}\label{classtmsengine_1_1_vertex_array_a39afaa4b9e37f5a8e107e82cab67e354}} 
+\index{tmsengine\+::\+Vertex\+Array@{tmsengine\+::\+Vertex\+Array}!buffers@{buffers}}
+\index{buffers@{buffers}!tmsengine\+::\+Vertex\+Array@{tmsengine\+::\+Vertex\+Array}}
+\subsubsection{\texorpdfstring{buffers}{buffers}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::shared\+\_\+ptr$<$\hyperlink{classtmsengine_1_1_vertex_buffer}{Vertex\+Buffer}$>$ $>$ tmsengine\+::\+Vertex\+Array\+::buffers\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classtmsengine_1_1_vertex_array_a9d53a5e75ce6c4afec5091ebeb17069f}\label{classtmsengine_1_1_vertex_array_a9d53a5e75ce6c4afec5091ebeb17069f}} 
+\index{tmsengine\+::\+Vertex\+Array@{tmsengine\+::\+Vertex\+Array}!dirty@{dirty}}
+\index{dirty@{dirty}!tmsengine\+::\+Vertex\+Array@{tmsengine\+::\+Vertex\+Array}}
+\subsubsection{\texorpdfstring{dirty}{dirty}}
+{\footnotesize\ttfamily bool tmsengine\+::\+Vertex\+Array\+::dirty\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classtmsengine_1_1_vertex_array_a4a18394cce9fe71f003ab23721fba532}\label{classtmsengine_1_1_vertex_array_a4a18394cce9fe71f003ab23721fba532}} 
+\index{tmsengine\+::\+Vertex\+Array@{tmsengine\+::\+Vertex\+Array}!vao\+ID@{vao\+ID}}
+\index{vao\+ID@{vao\+ID}!tmsengine\+::\+Vertex\+Array@{tmsengine\+::\+Vertex\+Array}}
+\subsubsection{\texorpdfstring{vao\+ID}{vaoID}}
+{\footnotesize\ttfamily G\+Luint tmsengine\+::\+Vertex\+Array\+::vao\+ID\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+T\+M\+S\+Engine/\hyperlink{_vertex_array_8h}{Vertex\+Array.\+h}\item 
+T\+M\+S\+Engine/\hyperlink{_vertex_array_8cpp}{Vertex\+Array.\+cpp}\end{DoxyCompactItemize}

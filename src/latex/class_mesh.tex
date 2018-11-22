@@ -1,0 +1,101 @@
+\hypertarget{class_mesh}{}\section{Mesh Class Reference}
+\label{class_mesh}\index{Mesh@{Mesh}}
+
+
+{\ttfamily \#include $<$Mesh.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_mesh_a2af137f1571af89172b9c102302c416b}{Mesh} ()
+\item 
+\hyperlink{class_mesh_a5efe4da1a4c0971cfb037bd70304c303}{$\sim$\+Mesh} ()
+\item 
+void \hyperlink{class_mesh_ab8e99c938f9582a77b893231961af07b}{Load\+O\+BJ} (std\+::string \+\_\+filename)
+\item 
+void \hyperlink{class_mesh_afdd95c079fd0442afef8a6c421c8bfc9}{Draw} ()
+\item 
+std\+::vector$<$ \hyperlink{struct_triangle}{Triangle} $>$ \hyperlink{class_mesh_aa5879d3423821995b768a85130449999}{Get\+Tri} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ \hyperlink{struct_triangle}{Triangle} $>$ \hyperlink{class_mesh_adaffa1f6ca5a7bcd7ec504e55fb9a879}{m\+\_\+tri}
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+G\+Luint \hyperlink{class_mesh_a6616843f51a26a77509d60e73ed59a12}{\+\_\+\+V\+AO}
+\item 
+unsigned int \hyperlink{class_mesh_a24247a0be98471bfebe095f9ba586791}{m\+\_\+num\+Vertices}
+\item 
+bool \hyperlink{class_mesh_a1a3614030c454e977cc94c4fc32b46b4}{dirty}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_mesh_a2af137f1571af89172b9c102302c416b}\label{class_mesh_a2af137f1571af89172b9c102302c416b}} 
+\index{Mesh@{Mesh}!Mesh@{Mesh}}
+\index{Mesh@{Mesh}!Mesh@{Mesh}}
+\subsubsection{\texorpdfstring{Mesh()}{Mesh()}}
+{\footnotesize\ttfamily Mesh\+::\+Mesh (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_mesh_a5efe4da1a4c0971cfb037bd70304c303}\label{class_mesh_a5efe4da1a4c0971cfb037bd70304c303}} 
+\index{Mesh@{Mesh}!````~Mesh@{$\sim$\+Mesh}}
+\index{````~Mesh@{$\sim$\+Mesh}!Mesh@{Mesh}}
+\subsubsection{\texorpdfstring{$\sim$\+Mesh()}{~Mesh()}}
+{\footnotesize\ttfamily Mesh\+::$\sim$\+Mesh (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_mesh_afdd95c079fd0442afef8a6c421c8bfc9}\label{class_mesh_afdd95c079fd0442afef8a6c421c8bfc9}} 
+\index{Mesh@{Mesh}!Draw@{Draw}}
+\index{Draw@{Draw}!Mesh@{Mesh}}
+\subsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily void Mesh\+::\+Draw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_mesh_aa5879d3423821995b768a85130449999}\label{class_mesh_aa5879d3423821995b768a85130449999}} 
+\index{Mesh@{Mesh}!Get\+Tri@{Get\+Tri}}
+\index{Get\+Tri@{Get\+Tri}!Mesh@{Mesh}}
+\subsubsection{\texorpdfstring{Get\+Tri()}{GetTri()}}
+{\footnotesize\ttfamily std\+::vector$<$\hyperlink{struct_triangle}{Triangle}$>$ Mesh\+::\+Get\+Tri (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_mesh_ab8e99c938f9582a77b893231961af07b}\label{class_mesh_ab8e99c938f9582a77b893231961af07b}} 
+\index{Mesh@{Mesh}!Load\+O\+BJ@{Load\+O\+BJ}}
+\index{Load\+O\+BJ@{Load\+O\+BJ}!Mesh@{Mesh}}
+\subsubsection{\texorpdfstring{Load\+O\+B\+J()}{LoadOBJ()}}
+{\footnotesize\ttfamily void Mesh\+::\+Load\+O\+BJ (\begin{DoxyParamCaption}\item[{std\+::string}]{\+\_\+filename }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_mesh_a6616843f51a26a77509d60e73ed59a12}\label{class_mesh_a6616843f51a26a77509d60e73ed59a12}} 
+\index{Mesh@{Mesh}!\+\_\+\+V\+AO@{\+\_\+\+V\+AO}}
+\index{\+\_\+\+V\+AO@{\+\_\+\+V\+AO}!Mesh@{Mesh}}
+\subsubsection{\texorpdfstring{\+\_\+\+V\+AO}{\_VAO}}
+{\footnotesize\ttfamily G\+Luint Mesh\+::\+\_\+\+V\+AO\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_mesh_a1a3614030c454e977cc94c4fc32b46b4}\label{class_mesh_a1a3614030c454e977cc94c4fc32b46b4}} 
+\index{Mesh@{Mesh}!dirty@{dirty}}
+\index{dirty@{dirty}!Mesh@{Mesh}}
+\subsubsection{\texorpdfstring{dirty}{dirty}}
+{\footnotesize\ttfamily bool Mesh\+::dirty\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_mesh_a24247a0be98471bfebe095f9ba586791}\label{class_mesh_a24247a0be98471bfebe095f9ba586791}} 
+\index{Mesh@{Mesh}!m\+\_\+num\+Vertices@{m\+\_\+num\+Vertices}}
+\index{m\+\_\+num\+Vertices@{m\+\_\+num\+Vertices}!Mesh@{Mesh}}
+\subsubsection{\texorpdfstring{m\+\_\+num\+Vertices}{m\_numVertices}}
+{\footnotesize\ttfamily unsigned int Mesh\+::m\+\_\+num\+Vertices\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_mesh_adaffa1f6ca5a7bcd7ec504e55fb9a879}\label{class_mesh_adaffa1f6ca5a7bcd7ec504e55fb9a879}} 
+\index{Mesh@{Mesh}!m\+\_\+tri@{m\+\_\+tri}}
+\index{m\+\_\+tri@{m\+\_\+tri}!Mesh@{Mesh}}
+\subsubsection{\texorpdfstring{m\+\_\+tri}{m\_tri}}
+{\footnotesize\ttfamily std\+::vector$<$\hyperlink{struct_triangle}{Triangle}$>$ Mesh\+::m\+\_\+tri}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+T\+M\+S\+Engine/\+Resources/\hyperlink{_mesh_8h}{Mesh.\+h}\end{DoxyCompactItemize}

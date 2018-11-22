@@ -1,0 +1,195 @@
+\hypertarget{classtmsengine_1_1_mesh_renderer}{}\section{tmsengine\+:\+:Mesh\+Renderer Class Reference}
+\label{classtmsengine_1_1_mesh_renderer}\index{tmsengine\+::\+Mesh\+Renderer@{tmsengine\+::\+Mesh\+Renderer}}
+
+
+{\ttfamily \#include $<$Mesh\+Renderer.\+h$>$}
+
+
+
+Inheritance diagram for tmsengine\+:\+:Mesh\+Renderer\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=211pt]{classtmsengine_1_1_mesh_renderer__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for tmsengine\+:\+:Mesh\+Renderer\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=324pt]{classtmsengine_1_1_mesh_renderer__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classtmsengine_1_1_mesh_renderer_a63ea3f394ba6678a6044068dd4253c97}{on\+Init} ()
+\item 
+void \hyperlink{classtmsengine_1_1_mesh_renderer_a1f1e2e0502438b6709e27a0b39c5ae9b}{set\+Mesh} (std\+::weak\+\_\+ptr$<$ \hyperlink{class_mesh}{Mesh} $>$ \hyperlink{classtmsengine_1_1_mesh_renderer_a6bc03b9b7e038a6e498fe7d54323d94e}{mesh})
+\item 
+std\+::shared\+\_\+ptr$<$ \hyperlink{class_mesh}{Mesh} $>$ \hyperlink{classtmsengine_1_1_mesh_renderer_a8f4724f163a3ff6e0eba9508380f79f1}{get\+Mesh} ()
+\item 
+std\+::shared\+\_\+ptr$<$ \hyperlink{class_material}{Material} $>$ \hyperlink{classtmsengine_1_1_mesh_renderer_a0d609c998a9c37b9282639432b165788}{get\+Material} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classtmsengine_1_1_mesh_renderer_adf77a2164ad1c92e4a310b99624b9fb5}{on\+Display} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float \hyperlink{classtmsengine_1_1_mesh_renderer_aed43f36a26f4ab4fffad978f7efbcca1}{angle}
+\item 
+std\+::weak\+\_\+ptr$<$ \hyperlink{class_mesh}{Mesh} $>$ \hyperlink{classtmsengine_1_1_mesh_renderer_a6bc03b9b7e038a6e498fe7d54323d94e}{mesh}
+\item 
+std\+::shared\+\_\+ptr$<$ \hyperlink{class_material}{Material} $>$ \hyperlink{classtmsengine_1_1_mesh_renderer_ae9c9e481c73462163839fe0fccbc7de7}{material}
+\item 
+std\+::shared\+\_\+ptr$<$ \hyperlink{classtmsengine_1_1_vertex_array}{Vertex\+Array} $>$ \hyperlink{classtmsengine_1_1_mesh_renderer_a06a3739c8ec10c3e8beeea648701250a}{shape}
+\item 
+std\+::shared\+\_\+ptr$<$ \hyperlink{classtmsengine_1_1_shader_program}{Shader\+Program} $>$ \hyperlink{classtmsengine_1_1_mesh_renderer_aa303774109b5a5ca7c3ef0d10cea4508}{shader}
+\item 
+std\+::shared\+\_\+ptr$<$ \hyperlink{classtmsengine_1_1_vertex_array}{Vertex\+Array} $>$ \hyperlink{classtmsengine_1_1_mesh_renderer_aef537847320f1f0e6227f0e599f8b317}{hall\+Shape}
+\item 
+std\+::shared\+\_\+ptr$<$ \hyperlink{classtmsengine_1_1_texture}{Texture} $>$ \hyperlink{classtmsengine_1_1_mesh_renderer_adfb1c4c403365aaca511cce9c8533244}{hall\+Texture}
+\item 
+std\+::shared\+\_\+ptr$<$ \hyperlink{classtmsengine_1_1_vertex_array}{Vertex\+Array} $>$ \hyperlink{classtmsengine_1_1_mesh_renderer_a018cd9669b1d0fa770102fd9ec3c24e6}{object}
+\item 
+std\+::shared\+\_\+ptr$<$ \hyperlink{classtmsengine_1_1_texture}{Texture} $>$ \hyperlink{classtmsengine_1_1_mesh_renderer_aef2386e714dd2dfc616dc2249bc60d67}{texture}
+\item 
+\hyperlink{classtmsengine_1_1_keyboard}{Keyboard} \hyperlink{classtmsengine_1_1_mesh_renderer_a572d3dc4c4211c1d93645616b3ae26c7}{input}
+\item 
+glm\+::mat4 \hyperlink{classtmsengine_1_1_mesh_renderer_abac4546c1d1fa1144d88e0e11824b96a}{model}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classtmsengine_1_1_mesh_renderer_a0d609c998a9c37b9282639432b165788}\label{classtmsengine_1_1_mesh_renderer_a0d609c998a9c37b9282639432b165788}} 
+\index{tmsengine\+::\+Mesh\+Renderer@{tmsengine\+::\+Mesh\+Renderer}!get\+Material@{get\+Material}}
+\index{get\+Material@{get\+Material}!tmsengine\+::\+Mesh\+Renderer@{tmsengine\+::\+Mesh\+Renderer}}
+\subsubsection{\texorpdfstring{get\+Material()}{getMaterial()}}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$\hyperlink{class_material}{Material}$>$ tmsengine\+::\+Mesh\+Renderer\+::get\+Material (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classtmsengine_1_1_mesh_renderer_a8f4724f163a3ff6e0eba9508380f79f1}\label{classtmsengine_1_1_mesh_renderer_a8f4724f163a3ff6e0eba9508380f79f1}} 
+\index{tmsengine\+::\+Mesh\+Renderer@{tmsengine\+::\+Mesh\+Renderer}!get\+Mesh@{get\+Mesh}}
+\index{get\+Mesh@{get\+Mesh}!tmsengine\+::\+Mesh\+Renderer@{tmsengine\+::\+Mesh\+Renderer}}
+\subsubsection{\texorpdfstring{get\+Mesh()}{getMesh()}}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$\hyperlink{class_mesh}{Mesh}$>$ tmsengine\+::\+Mesh\+Renderer\+::get\+Mesh (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classtmsengine_1_1_mesh_renderer_adf77a2164ad1c92e4a310b99624b9fb5}\label{classtmsengine_1_1_mesh_renderer_adf77a2164ad1c92e4a310b99624b9fb5}} 
+\index{tmsengine\+::\+Mesh\+Renderer@{tmsengine\+::\+Mesh\+Renderer}!on\+Display@{on\+Display}}
+\index{on\+Display@{on\+Display}!tmsengine\+::\+Mesh\+Renderer@{tmsengine\+::\+Mesh\+Renderer}}
+\subsubsection{\texorpdfstring{on\+Display()}{onDisplay()}}
+{\footnotesize\ttfamily void tmsengine\+::\+Mesh\+Renderer\+::on\+Display (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \hyperlink{classtmsengine_1_1_component_a73aa3564db299ef43100bd58d7cab65b}{tmsengine\+::\+Component}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classtmsengine_1_1_mesh_renderer_adf77a2164ad1c92e4a310b99624b9fb5_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classtmsengine_1_1_mesh_renderer_a63ea3f394ba6678a6044068dd4253c97}\label{classtmsengine_1_1_mesh_renderer_a63ea3f394ba6678a6044068dd4253c97}} 
+\index{tmsengine\+::\+Mesh\+Renderer@{tmsengine\+::\+Mesh\+Renderer}!on\+Init@{on\+Init}}
+\index{on\+Init@{on\+Init}!tmsengine\+::\+Mesh\+Renderer@{tmsengine\+::\+Mesh\+Renderer}}
+\subsubsection{\texorpdfstring{on\+Init()}{onInit()}}
+{\footnotesize\ttfamily void tmsengine\+::\+Mesh\+Renderer\+::on\+Init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \hyperlink{classtmsengine_1_1_component_ae992e9b0c98b569eba13d0274089bc18}{tmsengine\+::\+Component}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classtmsengine_1_1_mesh_renderer_a63ea3f394ba6678a6044068dd4253c97_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classtmsengine_1_1_mesh_renderer_a1f1e2e0502438b6709e27a0b39c5ae9b}\label{classtmsengine_1_1_mesh_renderer_a1f1e2e0502438b6709e27a0b39c5ae9b}} 
+\index{tmsengine\+::\+Mesh\+Renderer@{tmsengine\+::\+Mesh\+Renderer}!set\+Mesh@{set\+Mesh}}
+\index{set\+Mesh@{set\+Mesh}!tmsengine\+::\+Mesh\+Renderer@{tmsengine\+::\+Mesh\+Renderer}}
+\subsubsection{\texorpdfstring{set\+Mesh()}{setMesh()}}
+{\footnotesize\ttfamily void tmsengine\+::\+Mesh\+Renderer\+::set\+Mesh (\begin{DoxyParamCaption}\item[{std\+::weak\+\_\+ptr$<$ \hyperlink{class_mesh}{Mesh} $>$}]{mesh }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classtmsengine_1_1_mesh_renderer_aed43f36a26f4ab4fffad978f7efbcca1}\label{classtmsengine_1_1_mesh_renderer_aed43f36a26f4ab4fffad978f7efbcca1}} 
+\index{tmsengine\+::\+Mesh\+Renderer@{tmsengine\+::\+Mesh\+Renderer}!angle@{angle}}
+\index{angle@{angle}!tmsengine\+::\+Mesh\+Renderer@{tmsengine\+::\+Mesh\+Renderer}}
+\subsubsection{\texorpdfstring{angle}{angle}}
+{\footnotesize\ttfamily float tmsengine\+::\+Mesh\+Renderer\+::angle\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classtmsengine_1_1_mesh_renderer_aef537847320f1f0e6227f0e599f8b317}\label{classtmsengine_1_1_mesh_renderer_aef537847320f1f0e6227f0e599f8b317}} 
+\index{tmsengine\+::\+Mesh\+Renderer@{tmsengine\+::\+Mesh\+Renderer}!hall\+Shape@{hall\+Shape}}
+\index{hall\+Shape@{hall\+Shape}!tmsengine\+::\+Mesh\+Renderer@{tmsengine\+::\+Mesh\+Renderer}}
+\subsubsection{\texorpdfstring{hall\+Shape}{hallShape}}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$\hyperlink{classtmsengine_1_1_vertex_array}{Vertex\+Array}$>$ tmsengine\+::\+Mesh\+Renderer\+::hall\+Shape\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classtmsengine_1_1_mesh_renderer_adfb1c4c403365aaca511cce9c8533244}\label{classtmsengine_1_1_mesh_renderer_adfb1c4c403365aaca511cce9c8533244}} 
+\index{tmsengine\+::\+Mesh\+Renderer@{tmsengine\+::\+Mesh\+Renderer}!hall\+Texture@{hall\+Texture}}
+\index{hall\+Texture@{hall\+Texture}!tmsengine\+::\+Mesh\+Renderer@{tmsengine\+::\+Mesh\+Renderer}}
+\subsubsection{\texorpdfstring{hall\+Texture}{hallTexture}}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$\hyperlink{classtmsengine_1_1_texture}{Texture}$>$ tmsengine\+::\+Mesh\+Renderer\+::hall\+Texture\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classtmsengine_1_1_mesh_renderer_a572d3dc4c4211c1d93645616b3ae26c7}\label{classtmsengine_1_1_mesh_renderer_a572d3dc4c4211c1d93645616b3ae26c7}} 
+\index{tmsengine\+::\+Mesh\+Renderer@{tmsengine\+::\+Mesh\+Renderer}!input@{input}}
+\index{input@{input}!tmsengine\+::\+Mesh\+Renderer@{tmsengine\+::\+Mesh\+Renderer}}
+\subsubsection{\texorpdfstring{input}{input}}
+{\footnotesize\ttfamily \hyperlink{classtmsengine_1_1_keyboard}{Keyboard} tmsengine\+::\+Mesh\+Renderer\+::input\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classtmsengine_1_1_mesh_renderer_ae9c9e481c73462163839fe0fccbc7de7}\label{classtmsengine_1_1_mesh_renderer_ae9c9e481c73462163839fe0fccbc7de7}} 
+\index{tmsengine\+::\+Mesh\+Renderer@{tmsengine\+::\+Mesh\+Renderer}!material@{material}}
+\index{material@{material}!tmsengine\+::\+Mesh\+Renderer@{tmsengine\+::\+Mesh\+Renderer}}
+\subsubsection{\texorpdfstring{material}{material}}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$\hyperlink{class_material}{Material}$>$ tmsengine\+::\+Mesh\+Renderer\+::material\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classtmsengine_1_1_mesh_renderer_a6bc03b9b7e038a6e498fe7d54323d94e}\label{classtmsengine_1_1_mesh_renderer_a6bc03b9b7e038a6e498fe7d54323d94e}} 
+\index{tmsengine\+::\+Mesh\+Renderer@{tmsengine\+::\+Mesh\+Renderer}!mesh@{mesh}}
+\index{mesh@{mesh}!tmsengine\+::\+Mesh\+Renderer@{tmsengine\+::\+Mesh\+Renderer}}
+\subsubsection{\texorpdfstring{mesh}{mesh}}
+{\footnotesize\ttfamily std\+::weak\+\_\+ptr$<$\hyperlink{class_mesh}{Mesh}$>$ tmsengine\+::\+Mesh\+Renderer\+::mesh\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classtmsengine_1_1_mesh_renderer_abac4546c1d1fa1144d88e0e11824b96a}\label{classtmsengine_1_1_mesh_renderer_abac4546c1d1fa1144d88e0e11824b96a}} 
+\index{tmsengine\+::\+Mesh\+Renderer@{tmsengine\+::\+Mesh\+Renderer}!model@{model}}
+\index{model@{model}!tmsengine\+::\+Mesh\+Renderer@{tmsengine\+::\+Mesh\+Renderer}}
+\subsubsection{\texorpdfstring{model}{model}}
+{\footnotesize\ttfamily glm\+::mat4 tmsengine\+::\+Mesh\+Renderer\+::model\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classtmsengine_1_1_mesh_renderer_a018cd9669b1d0fa770102fd9ec3c24e6}\label{classtmsengine_1_1_mesh_renderer_a018cd9669b1d0fa770102fd9ec3c24e6}} 
+\index{tmsengine\+::\+Mesh\+Renderer@{tmsengine\+::\+Mesh\+Renderer}!object@{object}}
+\index{object@{object}!tmsengine\+::\+Mesh\+Renderer@{tmsengine\+::\+Mesh\+Renderer}}
+\subsubsection{\texorpdfstring{object}{object}}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$\hyperlink{classtmsengine_1_1_vertex_array}{Vertex\+Array}$>$ tmsengine\+::\+Mesh\+Renderer\+::object\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classtmsengine_1_1_mesh_renderer_aa303774109b5a5ca7c3ef0d10cea4508}\label{classtmsengine_1_1_mesh_renderer_aa303774109b5a5ca7c3ef0d10cea4508}} 
+\index{tmsengine\+::\+Mesh\+Renderer@{tmsengine\+::\+Mesh\+Renderer}!shader@{shader}}
+\index{shader@{shader}!tmsengine\+::\+Mesh\+Renderer@{tmsengine\+::\+Mesh\+Renderer}}
+\subsubsection{\texorpdfstring{shader}{shader}}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$\hyperlink{classtmsengine_1_1_shader_program}{Shader\+Program}$>$ tmsengine\+::\+Mesh\+Renderer\+::shader\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classtmsengine_1_1_mesh_renderer_a06a3739c8ec10c3e8beeea648701250a}\label{classtmsengine_1_1_mesh_renderer_a06a3739c8ec10c3e8beeea648701250a}} 
+\index{tmsengine\+::\+Mesh\+Renderer@{tmsengine\+::\+Mesh\+Renderer}!shape@{shape}}
+\index{shape@{shape}!tmsengine\+::\+Mesh\+Renderer@{tmsengine\+::\+Mesh\+Renderer}}
+\subsubsection{\texorpdfstring{shape}{shape}}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$\hyperlink{classtmsengine_1_1_vertex_array}{Vertex\+Array}$>$ tmsengine\+::\+Mesh\+Renderer\+::shape\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classtmsengine_1_1_mesh_renderer_aef2386e714dd2dfc616dc2249bc60d67}\label{classtmsengine_1_1_mesh_renderer_aef2386e714dd2dfc616dc2249bc60d67}} 
+\index{tmsengine\+::\+Mesh\+Renderer@{tmsengine\+::\+Mesh\+Renderer}!texture@{texture}}
+\index{texture@{texture}!tmsengine\+::\+Mesh\+Renderer@{tmsengine\+::\+Mesh\+Renderer}}
+\subsubsection{\texorpdfstring{texture}{texture}}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$\hyperlink{classtmsengine_1_1_texture}{Texture}$>$ tmsengine\+::\+Mesh\+Renderer\+::texture\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+T\+M\+S\+Engine/\hyperlink{_mesh_renderer_8h}{Mesh\+Renderer.\+h}\item 
+T\+M\+S\+Engine/\hyperlink{_mesh_renderer_8cpp}{Mesh\+Renderer.\+cpp}\end{DoxyCompactItemize}
