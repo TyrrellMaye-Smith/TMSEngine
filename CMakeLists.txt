@@ -27,6 +27,12 @@ endif()
 
 add_executable(Game
 src/Game/main.cpp
+src/Game/Scene.cpp
+src/Game/Scene.h
+src/Game/Box.cpp
+src/Game/Box.h
+src/Game/Apple.cpp
+src/Game/Apple.h
 
 )
 
@@ -66,9 +72,8 @@ src/TMSEngine/Camera.h
 src/TMSEngine/Camera.cpp
 src/TMSEngine/Exception.h
 src/TMSEngine/Exception.cpp
-
-src/Game/Scene.cpp
-src/Game/Scene.h
+src/TMSEngine/Collider.h
+src/TMSEngine/Collider.cpp
 
 src/TMSEngine/Resources/Resource.cpp
 src/TMSEngine/Resources/Resource.h
