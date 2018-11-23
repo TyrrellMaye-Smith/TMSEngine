@@ -1,14 +1,9 @@
 #include <TMSEngine/TMSEngine.h>
 #include <iostream>
 #include <GL/glew.h>
+#include "Box.h"
 
 using namespace tmsengine;
-
-class Player : public Component
-{
-public:
-private:
-};
 
 int main()
 {
@@ -18,7 +13,7 @@ int main()
 
 	//calls game object
 	std::shared_ptr<tmsengine::GameObject> player = core->addGameObject();
-	player->AddComponent<Player>();
+	player->AddComponent<Box>();
 
 	//Mesh renderer
 	std::shared_ptr<tmsengine::Camera> camera = player->AddComponent<tmsengine::Camera>();
